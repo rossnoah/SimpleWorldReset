@@ -1,0 +1,5 @@
+name: SimpleWorldReset
+version: '${project.version}'
+main: rip.plugins.simpleworldreset.SimpleWorldReset
+api-version: '1.19'
+load: STARTUP

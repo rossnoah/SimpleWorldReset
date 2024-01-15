@@ -1,0 +1,8 @@
+
+
+#WORLDS PLACED HERE WILL BE DELETED ON SHUTDOWN AND RESTORED ON STARTUP
+worlds:
+  0: #random key. can be anything
+    name: "example_world" #name of the world
+    restore:
+      file: "example_world.tar.gz" #name of the file to restore from
