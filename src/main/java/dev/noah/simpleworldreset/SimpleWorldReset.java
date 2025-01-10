@@ -1,4 +1,4 @@
-package rip.plugins.simpleworldreset;
+package dev.noah.simpleworldreset;
 
 import org.bukkit.Bukkit;
 import org.bukkit.World;
