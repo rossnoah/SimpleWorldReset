@@ -4,5 +4,16 @@
 worlds:
   0: #random key. can be anything
     name: "example_world" #name of the world
+    reset_delay_hours: 24 #time in hours before the world is reset
     restore:
       file: "example_world.tar.gz" #name of the file to restore from
+  1:
+    name: "another_world"
+    restore:
+      file: "another_world.tar.gz"
+    reset_delay_hours: 12 # reset every 12 hours
+  2:
+    name: "even_another_world"
+    restore:
+      file: "even_another_world.tar.gz"
+    reset_delay_hours: 0 # reset instantly on startup
